@@ -102,6 +102,28 @@ const About = () => {
             </div>
           </div>
         </div>
+
+        {/* Stats Strip */}
+        <div className="mt-16 bg-primary rounded-2xl p-8 md:p-10 animate-fade-up">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+              <p className="text-3xl md:text-4xl font-bold text-secondary mb-1">200+</p>
+              <p className="text-cream/90 text-sm md:text-base">Happy Customers</p>
+            </div>
+            <div>
+              <p className="text-3xl md:text-4xl font-bold text-secondary mb-1">5000+</p>
+              <p className="text-cream/90 text-sm md:text-base">Meals Delivered</p>
+            </div>
+            <div>
+              <p className="text-3xl md:text-4xl font-bold text-secondary mb-1">100%</p>
+              <p className="text-cream/90 text-sm md:text-base">Hygienic Kitchen</p>
+            </div>
+            <div>
+              <p className="text-3xl md:text-4xl font-bold text-secondary mb-1">4.8★</p>
+              <p className="text-cream/90 text-sm md:text-base">Customer Rating</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
