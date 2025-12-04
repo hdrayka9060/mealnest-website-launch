@@ -104,7 +104,7 @@ const About = () => {
         </div>
 
         {/* Stats Strip */}
-        <div className="mt-16 bg-gradient-to-r from-primary via-primary/90 to-primary rounded-2xl p-8 md:p-10 animate-fade-up">
+        <div className="mt-16 bg-gradient-to-r from-[#1a5420] via-primary to-[#1a5420] rounded-2xl p-8 md:p-10 animate-fade-up">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
               <p className="text-3xl md:text-4xl font-bold text-secondary mb-1">200+</p>
