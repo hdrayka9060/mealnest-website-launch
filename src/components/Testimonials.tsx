@@ -22,7 +22,7 @@ const Testimonials = () => {
     },
     {
       name: "Amit Kumar",
-      location: "HSR Layout",
+      location: "Sarjapura",
       text: "The Standard Meal is amazing value. Dal, roti, rice, sabzi AND gulab jamun for ₹139!",
       rating: 5,
     },

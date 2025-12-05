@@ -100,9 +100,23 @@ const TodaysMenu = () => {
         </div>
 
         {/* Note */}
-        <p className="text-center text-sm text-muted-foreground mt-8 animate-fade-up delay-500">
+        {/* <p className="text-center text-sm text-muted-foreground mt-8 animate-fade-up delay-500">
           * Menu items may vary based on seasonal availability. Contact us for today's exact menu.
-        </p>
+        </p> */}
+        <div className="text-center mt-10">
+          <p className="text-muted-foreground mb-4">
+          {/* <p className="text-center text-sm text-muted-foreground mb-4 animate-fade-up delay-500"> */}
+            *Menu changes daily to give you variety. Contact us for today's exact menu.
+          </p>
+          <a
+            href="https://wa.me/917041590049?text=Hi%20MealNest!%20What's%20on%20today's%20menu?"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-outline"
+          >
+            Ask About Today's Menu
+          </a>
+        </div>
       </div>
     </section>
   );
