@@ -11,6 +11,9 @@ export default defineConfig(({ mode }) => ({
   },
   preview: {
     port: 80, // Preview server on port 80
+    allowedHosts: [
+      'mealnest.in',    // Add your domain to the allowed hosts
+    ],
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
